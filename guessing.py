@@ -37,7 +37,7 @@ def guessing(r,count):
             else:
                 count+=1
                 print("You got it right")
-                print("It took you " + str(count) + " guess")
+                print("It took you " + {count} + " guess")
                 quit()
         except ValueError:
                 print("You entered a string instead of an integer. Please try again.")
